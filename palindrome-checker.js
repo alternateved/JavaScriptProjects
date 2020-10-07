@@ -13,5 +13,3 @@ function palindrome(str) {
   } 
   return true;
 }
-
-console.log(palindrome("1 eye for of 1 eye."));
