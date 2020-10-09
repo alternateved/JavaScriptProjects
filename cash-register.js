@@ -37,7 +37,6 @@ function checkCashRegister(price, cash, cid) {
     result.status = "OPEN";
     // loop through denomination array to calculate proper change 
     for (let i = cid.length - 1; i > -1; i--) {
-      console.log("penis");
       value = 0;
       while (cid[i][1] > 0 && change >= denomination[i][1]) {
         change -= denomination[i][1];
